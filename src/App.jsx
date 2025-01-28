@@ -26,7 +26,7 @@ function App() {
 
     // Add bot's response
     updatedMessages.push({
-      sender: "Bot",
+      sender: "AI Agent",
       text: randomBotMessage.toString(),
     });
 
