@@ -66,7 +66,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Ollama Chat</h1>
+      <h1>Simple Chat</h1>
       <div className="chat-container">
         {/* Chat Messages */}
         <div className="messages">
