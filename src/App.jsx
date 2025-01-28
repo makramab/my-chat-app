@@ -23,16 +23,18 @@ function App() {
     try {
       setLoading(true);
 
-      const response = await fetch("http://localhost:11434/api/generate", {
+      // TODO: Replace the empty string with the Ollama API endpoint
+      const response = await fetch("", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          // The user's input becomes the prompt
-          prompt: newMessage,
-          // Adjust the model name or any other params as needed
-          model: "deepseek-r1:1.5b",
+          // TODO: Add the user input as the prompt
+          // TODO: Use the correct model name (deepseek with 1.5b parameters)
+
+
+          // This is to set the stream request field to False
           stream: false,
         }),
       });
