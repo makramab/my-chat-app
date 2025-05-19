@@ -1,0 +1,12 @@
+Field,Value
+Invoice Number,1937046
+Date,2024-11-20
+Vendor,Certified Lumber
+Total Amount,1045
+Status,completed
+
+
+Description,Category,Quantity,Unit,Unit Price,Total Price
+"2X6"" 10’ HEM FIR GREEN",Lumber,20,,10.49,209.8
+"1/2"" 4X8’ CDX Y/P AGENCY PLYWO",Plywood,1,,26.99,26.99
+FUEL SURCHARGE,Fees,1,,24.95,24.95
